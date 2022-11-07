@@ -73,3 +73,5 @@ $ kubectl exec -it pod-name /bin/bash
 ```
 
 **Note:** 可以通过 `--namespace=<your-desired-namespace>` 设置部署在那个`namespace`中
+
+### 通过 `hack/network-dockor-daemonset.yaml` 进行部署
