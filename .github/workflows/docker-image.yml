@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag network-dockor:latest
+      run: docker build . --file Dockerfile --tag dongjiang1989/network-dockor:latest
