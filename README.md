@@ -15,9 +15,7 @@ docker pull dongjiang1989/network-doctor:latest
 
 
 ## 支持平台
-* linux/386
 * linux/amd64
-* linux/arm/v7
 * linux/arm64
 
 ### 工具集
@@ -34,6 +32,7 @@ docker pull dongjiang1989/network-doctor:latest
   * tcptraceroute
   * traceroute
   * tshark
+  * nsenter
 
 **注意：** SSL 证书是为“localhost”生成的，是自签名的，并放置在 `/certs/` 目录中。在测试期间，请忽略证书警告/错误。使用 curl 时，您可以使用 `-k` 忽略 SSL 证书警告/错误。
 
